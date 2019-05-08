@@ -1,0 +1,58 @@
+[
+ {
+	 "name": "collectionCustomerDistributor",
+	 "policy": "OR('Org1MSP.member','Org2MSP.member')",
+	 "requiredPeerCount": 0,
+	 "maxPeerCount": 3,
+	 "blockToLive":0
+ },
+ {
+	"name": "collectionCustomerLineItems",
+	"policy": "OR('Org1MSP.member','Org2MSP.member')",
+	"requiredPeerCount": 0,
+	"maxPeerCount": 3,
+	"blockToLive":0
+ },
+ {
+	"name": "collectionDistributorManufacturer1",
+	"policy": "OR('Org2MSP.member','Org3MSP.member')",
+	"requiredPeerCount": 0,
+	"maxPeerCount": 3,
+	"blockToLive":0
+ },
+ {
+	"name": "collectionDistributorManufacturer2",
+	"policy": "OR('Org2MSP.member','Org4MSP.member')",
+	"requiredPeerCount": 0,
+	"maxPeerCount": 2,
+	"blockToLive":0
+ },
+ {
+	"name": "collectionLogistics",
+	"policy": "OR('Org1MSP.member','Org2MSP.member','Org3MSP.member','Org4MSP.member','Org5MSP.member')",
+	"requiredPeerCount": 0,
+	"maxPeerCount": 5,
+	"blockToLive":0
+ },
+ {
+	"name": "collectionMtrManufacturer1",
+	"policy": "OR('Org2MSP.member','Org3MSP.member')",
+	"requiredPeerCount": 0,
+	"maxPeerCount": 2,
+	"blockToLive":0
+ },
+ {
+	"name": "collectionMtrManufacturer2",
+	"policy": "OR('Org2MSP.member','Org4MSP.member')",
+	"requiredPeerCount": 0,
+	"maxPeerCount": 2,
+	"blockToLive":0
+ },
+ {
+	"name": "collectionGeneralProgress",
+	"policy": "OR('Org1MSP.member','Org2MSP.member','Org3MSP.member','Org4MSP.member')",
+	"requiredPeerCount": 0,
+	"maxPeerCount": 5,
+	"blockToLive":0
+ }
+]
